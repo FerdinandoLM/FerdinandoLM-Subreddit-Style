@@ -1,0 +1,204 @@
+#header-img                     { margin: 2px 5px 0px 2px; }
+hr                              { height: 2px; border-width: 0px; }
+.sidecontentbox h1              { font-weight: bold; }
+::-webkit-scrollbar             { width: 13px; height: 13px; }
+::-webkit-scrollbar-button      { display: none; background-color: #FFF; border: 1px solid #000; }
+::-webkit-scrollbar-track       { background-color: #FFF; border: 1px solid #000; }
+::-webkit-scrollbar-track-piece { border: 1px solid #000; background-color: #FFF; }
+::-webkit-scrollbar-thumb       { height: 50px; background-color: #000; border: 1px solid #000; }
+::-webkit-scrollbar-corner      { background-color: #FFF; }
+::-webkit-scrollbar-resizer     { background-color: #FFF; }
+
+/* BG IMG None */
+.RESMacroDropdownTitle, .morelink, .RESDashboardToggle, .RESshortcutside, .add, .remove, .morelink a:hover
+ { background-image: none !important; }
+
+/* Black BG */
+.RESDialogSmall.livePreview h3:first-of-type, .pretty-form button[type="submit"], .RESDashboardToggle, .RESshortcutside, .add, .remove, .usertext .markhelp .spaces, .instructions code, .private-feeds.instructions .feedlink, .error-log .logtext.error .loglevel, .sr-name-row.sr-selected, .fancy-toggle-button .banned, .fancy-toggle-button .active, .comment .expand:hover, hr
+ { background-color: #000 !important; }
+
+/* Black Text */
+.RESDialogSmall.livePreview, .RESMacroDropdownTitle, .flair-jump button, .debuginfo .icon, .collapse-button, .res_comment_downs, .res_comment_ups, #REScommentSubToggle, #REScommentSubToggle:hover, .res_post_ups, .res_post_downs, .morelink a:hover, .morelink, .api-help .endpoint .method, .api-help .endpoint .extensions, .api-help .endpoint h3, .api-help .endpoint .uri-variants, .api-help .methods h2, .api-help .toc > ul > li > strong, .api-help .toc a.section, .api-help .toc a, .api-help .toc em.placeholder, .api-help .endpoint em.placeholder, .oauth2-authorize .fancybutton.decline, .api-help .contents .introduction strong, .oauth2-authorize h2, .oauth2-authorize .notice, .gold-dropdown, .gold-button, .giftmessage, .gold-form .roundfield, .gold-expiration-info .karma, .giftgold a, .gold-accent.comment-visits-box, .gold-accent .pretty-form button, .gold-accent h1, .gold-accent th, #per-sr-karma tbody td, .gold-accent, .organic-listing .ontrial a.title, .jury-box .arrow-msg, .jury-box .thanks-for-voting, a.pretty-button, .pretty-button, .usage-table .average.intersection, .ad-assign-table .warning, .usage-table .intersection, .usage-table .empty.intersection, .usage-table .elapsed.intersection, .usage-table .count.intersection, a.adminbox:hover, a.adminbox, .titlebox form.toggle, .leavemoderator, .sidecontentbox .more a, .sidecontentbox h1, .linkinfo .upvotes, .linkinfo .downvotes, .titlebox .bottom, .create-promo h2, .fancy-settings h1, .create-promotion h1, .fancy-settings h2, .fancy-settings h1 strong, .pay-form tr.input-error th, .pay-form p.info, .titlebox h1 a, .create-promo .infobar, .create-promotion .help a.help, .pay-form *[disabled], .pay-form input[disabled], .ui-datepicker-inline .ui-datepicker-calendar td a.ui-state-hover, .ui-datepicker-inline .ui-datepicker-calendar td span, .ui-datepicker-inline .ui-datepicker-calendar td.ui-datepicker-today a, .ui-datepicker-inline .ui-datepicker-calendar td.ui-datepicker-today span, .ui-datepicker-inline .ui-datepicker-calendar td a.ui-state-active, .ui-datepicker-inline .ui-datepicker-calendar th span, .ui-datepicker-inline .ui-datepicker-calendar td span, .ui-datepicker-inline .ui-datepicker-calendar td a, .ui-datepicker-header, .trophy-name, .trophy-description, .dust, .sponsorshipbox span, .award-square .award-name, .award-square .winner-info, .award-square .winner-name, .prefright p.minimum-spend, .prefright p.minimum-spend.error, .campaign .bid-info.error, .traffic-table td.up, .traffic-table td.down, .traffic-table td.gray, .linefield .title, .linefield .info, .usertext.grayed .usertext-body, .tabmenu.formtab .selected a, .subscription-box .title, .subscription-box .title.banned, #sr-more-link, .sr-bar .separator, .sr-bar a, #sr-header-area .selected a, .dropdown.srdrop .selected, .private-feeds.instructions .feedlink.json-link, .gray, .stats a, .stats td.k, #validation-errors a, #validation-errors li, .errors h2, #validation-errors pre, .entry .buttons li.trial-stamp .spam, .entry .buttons li.trial-stamp .kosher, .nsfw-stamp acronym, #url-field .title-status, .starkcomment .commentbox, .toolbar .title, .toolbar .title:active, .toolbar .clickable:active, .pushed-button, .toolbar a, .toolbar .clickable, .toolbar .middle-side .domain, .blog5 .arrow, .blog5 .votes.disabled .arrow, .blog5 li.selected, .button .blog2 .bottomreddit, .blog5 ul a, .button .blog .r, .button, .button .blog, .vote-a-notes, .vote-up, .vote-down, .vote-invalid, .bottommenu, .bottommenu a, .bottommenu.serverinfo .icon, .button, .oldbylink a, .popup h2, .popup h1, .footer, .commentbody.grayed, .message .subject .correspondent, .load9, .orangered, .error, .red, #searchmenu .searchlabel, .login-form-section h3, .searchfail, .searchfail a, .legal, .login-form-section p, .user-form label, a.star, .entry .buttons li a, .entry .buttons li a.nonbutton, .link .score, .link .score.likes, .link .score.dislikes, .link .rank, .compressed .score, .warm-entry .rank, .hot-entry .rank, .cool-entry .rank, .cold-entry .rank, .gadget small, .comment .collapsed, .comment .collapsed a, .message .collapsed .head, .message.message-parent .tagline, .message.message-reply .tagline, .message.message-parent > .entry .noncollapsed, .message.message-reply > .entry .noncollapsed, .message.recipient > .entry .noncollapsed, .message.message-reply.recipient > .entry .head, .message.message-parent.recipient > .entry .head, .message.new > .entry .head, .panestack-title a.title-button.gold, .commentarea .menuarea, .sponsored-tagline, .promoted-list .unpromote-button a, .media-button .option.active, .thing .title, .thing .title:visited, .thing .title.click, .thing .title.loggedin, .thing .title.loggedin:visited, .thing .title.loggedin.click, .thing .title.loggedin.click:visited, .nextprev, .help a.help, .media-button .option, .fancybutton.disabled, .fancybutton.disabled:active, .fancybutton, a, hr, .flair, .tagline a, .link-note, .dropdown.tabdrop .selected.title, .tabmenu li.selected a, h2, h2 a:visited, label.disabled, .wrong, .infotable .state-button a, .sidebox.gold .morelink a, .sidebox.gold .morelink a:visited, .flat-list .selected a, .flat-vert.title, .separator, .user, .pagename a, .dropdown.lightdrop .selected, .morelink a, .disabled .morelink a, .sidebox .subtitle, #titleLength, #textLength, .profile-attr .value, .question, .domain, .domain a, .tagline, .tagline .friend, .tagline .submitter, .tagline .moderator, .green, .tagline .admin, .tagline .alum, .error-log .hexkey, .error-log .exception span.fixed, .error-log .edit-area label.fixed, .error-log .nickname, .error-log .logtext.error, .error-log .occurrence, .error-log .exception-name, .error-log .frequency, .ring, .error-log .logtext *, #userbarToggle, .RESCharCounter
+ { color: #000 !important; }
+
+/* Black Border 1px */
+#suggest-title button, #url, .footer, .infobar, .new-comment .usertext-body, .gold-accent, #sr-form .linefield, #image-preview-list li, #REScommentSubToggle, #REScommentSubToggle:hover, #file button, .btn, .submit-img, .delete-img, .file, .morelink, .oauth2-authorize .access, .infobar.client-info, .styled-input, .gold-accent .pretty-form button, .gold-form .roundfield, .giftmessage, .pretty-button, a.adminbox:hover, .lined-table, .lined-table th, .lined-table td, .titlebox .account-notes .unusual, .sidecontentbox .content, .linkinfo, .linkinfo .shortlink input, .linkinfo td, .linkinfo th, a.adminbox, .calendar .blob.link:hover, .calendar .blob.link, .pay-form tr.input-error input, .pay-form tr.input-error textarea, .pay-form tr.input-error select, .date-input input, .date-input .drop-choices, .ui-datepicker-inline table, .ui-datepicker-inline .ui-datepicker-calendar th, .ui-datepicker-inline .ui-datepicker-calendar td, .ui-datepicker-header, .traffic-graph, .lined-table th, .lined-table td, .sponsorshipbox div, .existing-campaigns > table > tbody > tr > td, .campaign, .linefield textarea, .linefield input[type=text], .linefield input[type=password], .roundfield textarea, .roundfield input[type=text], .roundfield input[type=password], .usertext .markhelp, .usertext .markhelp td, .usertext .markhelp tr, .link .usertext .md, .subreddit .usertext .md, .tabmenu.formtab .selected a, .tabmenu.formtab a, #sr-drop-down, #sr-list-wrapper, .private-feeds.instructions .feedlink, .entry .buttons li.trial-stamp, .entry .buttons li.reported-stamp, .nsfw-stamp acronym, .pretty-form input[type=text], .pretty-form textarea, .pretty-form input[type=password], .bookmarklet, .blog5 .votes, .button .blog, .unvotable-message, .error-log .logtext .loglevel, .error-log .logtext table, .error-log .logtext table th, .error-log .logtext table td, .error-log .logtext table th, .error-log .logtext table td, .error-log .occurrences, .error-log table.stacktrace th, .error-log table.stacktrace td, .error-log .edit-area, .usertable .remove-self .togglebutton, .usertable .remove-self .error, .error-log, .error-log .exception, .user-form input[type=text], .user-form input[type=password], .error-log .exception.fixed, .link.last-clicked, .infobar.mellow, .login-form-side, .login-form-side input[type=text], .login-form-side input[type=password], .sponsored .titlerow, .message .entry .parent, .message .subject .correspondent, .clippy-bubble, .fancy-toggle-button .active, .panestack-title a.title-button.gold, .commentarea h1, .organic-listing, .organic-listing .nextprev .arrow, .organic-listing .nextprev .arrow:hover, .link.promotedlink, .infotext, .help.help-cover, .flairselector form, .flairselector li:hover, #header, .fancybutton, .attention, input.txt, .flairselector.drop-choices.active, .flair, .infotable .organic-vote, .profile-attr .md, .raisedbox, .morelink, #search input[type=text], .tabpane-content, .tabmenu li.selected a, .drop-choices, .dropdown.heavydrop .selected, .dropdown.tabdrop .selected
+ { border: 1px solid #000 !important;}
+
+/* Black Border Color */
+.usertext-body td, .usertext-body th, .RESDialogSmall.livePreview td, .RESDialogSmall.livePreview th, .RESDialogSmall.livePreview, #RESMacroDropdownList li, #RESMacroDropdownList, .flair-jump button, .pretty-form button[type="submit"], .collapse-button, #previoussearch #moresearchinfo, .disabled .morelink, .disabled .morelink:hover, .fancybutton.disabled, .fancybutton.disabled:active, .infobar.red, #preview span, #preview #previewbox, .button #popup, .blog5 li.selected, #preview-table > table, .jury-box .pretty-button a.pressed, .gold-button, .oauth2-authorize .fancybutton.allow, .oauth2-authorize .fancybutton.decline
+ { border-color: #000 !important; }
+
+/* Border Top 1px Black */
+.toolbar-status-bar, .srdrop .choice.bottom-option, .traffic-table .totals, .titlebox .bottom
+ { border-top: 1px solid #000 !important; }
+
+/* Border Bottom 1px Black */
+.share-summary th, .infobar, .menuarea, .panestack-title, #per-sr-karma th.helpful span, #sr-header-area, .srdrop .choice.top-option, .toolbar, .instructions .buttons li, .toolbar-status-bar, .api-help .methods h2
+ { border-bottom: 1px solid #000 !important; }
+
+/* Border Right 1px Black */
+.min-body .content, .toolbar .left-side, .usage-table .average.intersection, .usage-table .empty.intersection, .usage-table .average.intersection
+ { border-right: 1px solid #000 !important; }
+
+/* Border Left 1px Black */
+.api-help .endpoint .info, .toolbar a, .toolbar b, .bidding-history .linefield, .calendar div.grid + div.grid, .footer .col, .comment .child
+ { border-left: 1px solid #000 !important; }
+
+/* Border 2px Black */
+.error-log .exception.new, .error-log .exception.severe, .error-log .exception.interesting, .error-log .logtext, .traffic-table tr.max, .traffic-table tr.min, .cup-info-box, .api-help .contents .introduction
+ { border: 2px solid #000 !important; }
+
+/* Border Bottom 2px Black */
+#searchmenu, .calendar div.grid div.header
+ { border-bottom: 2px solid #000 !important; }
+
+/* Border Right 2px Black */
+.divide
+ { border-right: 2px solid #000 !important; }
+
+/* Border Left 2px Black */
+.md blockquote, .help blockquote
+ { border-left: 2px solid #000 !important; }
+
+/* Border 5px Black */
+.api-help .toc
+ { border: 5px solid #000 !important; }
+
+/* BG White */
+body, #suggest-title button, .roundfield textarea, .roundfield input, #search input, .usertext-edit textarea, .linkinfo .shortlink input, #RESMacroDropdownList li:hover a, #RESMacroDropdownList li, .flair-jump button, .collapse-button, .morelink, .morelink a, .pretty-button, .gold-accent .pretty-form button, .gold-form .roundfield, .giftmessage, .oauth2-authorize .fancybutton.allow, .gold-dropdown, .new-comment .usertext-body, .oauth2-authorize .access, .infobar.client-info, #file button, .btn, .submit-img, .delete-img, .file, #REScommentSubToggle, #REScommentSubToggle:hover, .api-help .parameters, .api-help .toc, .oauth2-authorize .fancybutton.decline, .oauth2-authorize .fancybutton.decline:hover, .oauth2-authorize .fancybutton.decline:active, .oauth2-authorize .fancybutton.allow:hover, .oauth2-authorize .fancybutton.allow:active, .error-log .exception.fixed, .error-log .exception.interesting, .error-log .exception, .error-log .exception.severe, .cover, .oldbylink a, .usertable .moderator.remove-self, .popup, #searchmenu, .infobar.mellow, .sponsored .titlerow, .commentbody.border, .commentbody.grayed, .clippy-bubble, .message .subject .correspondent, .load0, .load1, .load2, .load3, .load4, .load5, .load6, .load7, .load8, .load9, #searchmenu .searchlabel, .message.new > .entry, textarea.gray, .deepthread a, .morecomments a, .morecomments .gray, .message.focal > .entry .md, .panestack-title a.title-button.gold, .infobar.red, .infobar, .help-cover.promoted, .organic-listing .promoted, .infotext, .help.help-cover, .organic-listing .link, .link.promotedlink.unpaid, .link.promotedlink.unseen, .link.promotedlink.accepted, .link.promotedlink.rejected, .link.promotedlink.accepted, .link.promotedlink.pending, .link.promotedlink.promoted, .link.promotedlink.finished, .flairselector li:hover, #header, .fancybutton.disabled, .fancybutton.disabled:active, .fancybutton, .flairselector h2, .flair, .link-note, .tabmenu li a, .dropdown.tabdrop .selected.title, .drop-choices, .tabmenu li.selected a, input.txt, .raisedbox, .fancybutton:focus, .fancybutton:active, .fancybutton:hover, .infotable .state-button a, .infotable .invalid-user, .morelink:hover, .mlh, .side, .drop-choices a.choice:hover, #header-bottom-right, .newpagelink, .toolbar-status-bar, .toolbar .left-side, .toolbar, .toolbar .middle-side, .toolbar .right-side, .toolbar .clickable:active, .pushed-button, .toolbar-status-bar .login-message, .starkcomment .commentbox, .white-field, .delete-field, .entry .buttons li.trial-stamp, .entry .buttons li.reported-stamp, .suspicious, .thing.spam, .stats th, #sr-more-link, #sr-list-cover, .sr-row.sr-selected, #sr-drop-down, .tabmenu.formtab .selected a, .expando-button, .subreddit .usertext .md, .link .usertext .md, .usertext.border .usertext-body, .usertext.grayed .usertext-body, .usertext table.markhelp, .roundfield, .linefield, #sr-header-area, .private-feeds.instructions .feedlink.json-link, .campaign, .blog5 li.selected, .button .blog1 .headimgcell, .button .blog2 .bottomreddit, .button #popup, .blog5 .votes, .error-log .logtext, .button .blog, .button .cover, .error-log .edit-area, .error-log .logtext table .dotdotdot a, .error-log .logtext.warning .loglevel, .error-log .logtext.info .loglevel, .error-log .logtext.debug .loglevel, .error-log .logtext table .dotdotdot a:hover, .ring, .gold-button, .organic-listing .ontrial, .help-cover.juryduty, .gold-accent, .ui-datepicker-header, .traffic-table tr.odd, .trophy-area .content, .cup-info-box tt, .sr-ad-table .inherited, .sr-ad-table .overridden, .sr-ad-table .unused, .linkinfo, .titlebox .account-notes .unusual, .titlebox form.toggle, .leavemoderator, .icon-menu a, .bidding-history table.bidding-history tr:hover, .bidding-history div.graph, .calendar div.grid.today, .create-promotion .infobar, .date-input .drop-choices, .pay-form *[disabled], .pay-form input[disabled], .ui-datepicker-inline .ui-datepicker-calendar th span, .ui-datepicker-inline .ui-datepicker-calendar td span, .ui-datepicker-inline .ui-datepicker-calendar td a, .ui-datepicker-inline .ui-datepicker-calendar td.ui-datepicker-today a, .ui-datepicker-inline .ui-datepicker-calendar td.ui-datepicker-today span, .ui-datepicker-inline .ui-datepicker-calendar td a.ui-state-active, .ui-datepicker-inline .ui-datepicker-calendar td a.ui-state-hover, .ui-datepicker-inline .ui-datepicker-calendar td a.ui-state-active, #userbarToggle
+ { background-color: #FFF !important; }
+
+/* Text White */
+.RESDialogSmall.livePreview h3:first-of-type, .pretty-form button[type="submit"], .ui-datepicker-inline .ui-datepicker-prev:active, .ui-datepicker-inline .ui-datepicker-next:active, .blog5 .arrow.upmod b, .blog5 .arrow.downmod b, .optional, .error-log .exception span.severe, .error-log .edit-area label.severe, .error-log .logtext.error .loglevel, .private-feeds.instructions .feedlink, .sr-name-row.sr-selected, .RESDashboardToggle, .RESshortcutside, .add, .remove, .oauth2-authorize .fancybutton.allow, .jury-box .pretty-button a.pressed, a.pretty-button.pressed, .error-log .exception span.new, .error-log .edit-area label.new, .fancy-toggle-button .active, .comment .expand:hover, .sidebox.gold
+ { color: #FFF !important; }
+
+/* Border White */
+#img-preview-container
+ { border-color: #FFF !important; }
+
+/* Border 1px White */
+.usertable .remove-self
+ { border: 1px solid #FFF !important; }
+
+/* Border Bottom 1px White */
+.message.new > .entry, .flairselector li.selected, .flairselector li, .tabmenu li.selected a
+ { border-bottom: 1px solid #FFF !important; }
+
+/* Border Left 2px White */
+.message.message-reply .entry, .message.message-parent .entry
+ { border-left: 2px solid #FFF !important; }
+
+/* Border Top 4px White */
+.formtabs-content
+ { border-top: 4px solid #FFF !important; }
+
+/* Display None */
+.roundfield.info-notice, .icon-menu .reddit-unmoderated:before, #header-bottom-right span.separator:nth-of-type(6), #RESPrefsDropdown, #openRESPrefs, #RESSettingsButton, #RESMainGearOverlay, .gearIcon, #RESShortcutsEditContainer, .usertable .remove-self .main::before, .titlebox .leavemoderator::before, .titlebox form.leavecontributor-button::before, .icon-menu .reddit-edit::before, .icon-menu .reddit-traffic::before, .icon-menu .reddit-reported::before, .icon-menu .reddit-spam::before, .icon-menu .reddit-ban::before, .icon-menu .reddit-flair::before, .icon-menu .reddit-moderationlog::before, .icon-menu .reddit-moderators::before, .icon-menu .moderator-mail::before, .icon-menu .reddit-contributors::before, .icon-menu .reddit-modqueue::before, .giftgold a::before, .gold-form h1.goldgift::before, .sidebox .spacer, .sidebox.create .spacer a, .sidebox .subtitle, .nub, .buygold, .RESShortcutsCurrentSub, .icon-menu .edit-stylesheet:before
+ { display: none !important; }
+
+/* 100% Opacity */
+.api-help .endpoint .uri-variants, .api-help .endpoint .links a, #sr-list-cover, .banned-user, .cover, .sidebox.submit.disabled .spacer a
+ { opacity: 1 !important; }
+
+/* Text Underlined */
+a.adminbox:hover, a, a.star, .tagline a
+ { text-decoration: underline !important; }
+
+/* Text Decoration None */
+.fancy-toggle-button .active, span.btn.right span a, div.account-activity-box p a, ul.flat-vert.icon-menu.hover li a, .sidecontentbox a.helplink, .error-log .logtext table .dotdotdot a:hover, .tabmenu li a
+ { text-decoration: none !important; }
+
+/* Border 0px */
+span.btn.right, #moresearchinfo, .RESDialogSmall.livePreview h3:first-of-type, #userbarToggle
+ { border: 0px solid #000 !important; }
+
+/* Centered Text */
+.RESDialogSmall.livePreview th, .usertext-body th
+ { text-align: center; }
+
+/* Misc */
+.RESMacroDropdownTitle
+ { padding: 0px !important; }
+.RESDialogSmall.livePreview h3:first-of-type
+ {  margin: 5px 0px 0px 0px !important;
+    padding: 13px 0px 0px 10px !important;
+    font-size: 11px !important;
+    letter-spacing: 3px !important;
+    text-transform: uppercase !important; }
+.linefield .linefield-content {
+    /*border-color:#000;
+             /*border-color:#000;*!/
+             border-style:solid none none;
+             border-width:4px medium medium;*/
+    }
+.existing-campaigns > table > tbody > tr > th
+ { border: solid #000; }
+.datepicker::before, .datepicker::after
+ { border-color: transparent transparent #000; }
+.create-promo .infobar
+ { border-color: #000;
+   background: none; }
+.oauth2-authorize .access:after
+ { border-color: transparent #FFF transparent transparent; }
+.oauth2-authorize .access:before, .api-help .introduction:before
+ { border-color: transparent #000 transparent transparent; }
+div.content form .spacer .roundfield
+ { border: 3px solid #000;
+   border-radius: 0px; }
+#image-preview-list li, #sr-form .linefield
+ { border-radius: 2px; }
+#image-preview-list li
+ { padding: 8px 4px;
+   margin: 5px; }
+#sr-form .linefield
+ { padding: 5px 2px; }
+.pretty-form button[type="submit"]
+ { font-weight: bold;
+   text-transform: capitalize; }
+.tabmenu.formtab
+ { border-bottom: 3px solid #000;
+   width: 518px; }
+
+/* Custom Sprites */
+.arrow.upmod, .arrow.up, .arrow.down, .arrow.downmod, #mail.havemail, #mail.nohavemail, #modmail.havemail, #modmail.nohavemail, .expando-button.video.collapsed, .expando-button.video.collapsed:hover, .eb-vch, .expando-button.video.expanded, .eb-ve, .expando-button.video.expanded:hover, .eb-veh, .expando-button.selftext.collapsed, .expando-button.selftext.collapsed:hover, .expando-button.selftext.expanded, .expando-button.selftext.expanded:hover, #spamNotifier.SM-noNewAlerts, #spamNotifier.SM-newAlerts, .users-online::before, .approval-checkmark
+                    { background-image: url('%%sprites%%'); background-repeat: no-repeat; }
+.arrow.upmod        { background-position: -45px   0px; }
+.arrow.up           { background-position: -30px   0px; }
+.arrow.down         { background-position:   0px   0px; }
+.arrow.downmod      { background-position: -15px   0px; }
+#mail.havemail      { background-position: -32px -14px; }
+#mail.nohavemail    { background-position: -47px -14px; }
+#modmail.havemail   { background-position:   0px -14px; height: 14px; }
+#modmail.nohavemail { background-position: -16px -14px; height: 14px; }
+.expando-button.video.collapsed                { background-position: -23px -74px; }
+.expando-button.video.collapsed:hover, .eb-vch { background-position:   0px -74px; }
+.expando-button.video.expanded, .eb-ve         { background-position: -23px -97px; }
+.expando-button.video.expanded:hover, .eb-veh  { background-position:   0px -97px; }
+.expando-button.selftext.collapsed             { background-position: -23px -28px; }
+.expando-button.selftext.collapsed:hover       { background-position:   0px -28px; }
+.expando-button.selftext.expanded              { background-position: -23px -51px; }
+.expando-button.selftext.expanded:hover        { background-position:   0px -51px; }
+#spamNotifier.SM-noNewAlerts img               { visibility: hidden; }
+#spamNotifier.SM-newAlerts img                 { visibility: hidden; }
+#spamNotifier.SM-noNewAlerts                   { background-position: -46px -44px; padding-top: 2px; }
+#spamNotifier.SM-newAlerts                     { background-position: -46px -58px; padding-top: 2px; }
+.users-online::before                          { background-position: -46px -28px; }
+.approval-checkmark                            { background-position: -46px -72px; padding-right: 9px; width: 0px; height: 12px; }
+
+/* Replacing default thumbnails */
+.thumbnail.nsfw, .thumbnail.self
+                                      { background-image: url('%%thumbs%%') !important; }
+.thumbnail.nsfw                       { background-position: 0px   0px !important; }
+.thumbnail.self                       { background-position: 0px -53px !important; }
+
+/* Custom Thumbnails */
+.thing.id-t3_scavq .thumbnail.default, .thing.id-t3_sir6l .thumbnail.default, .thing.id-t3_sk7c4 .thumbnail, .thing.id-t3_ucqyb .thumbnail
+                                      { background-image: url('%%thumbs01%%') !important; }
+.thing.id-t3_scavq .thumbnail.default { background-position:    0px 0px !important; }
+.thing.id-t3_sir6l .thumbnail.default { background-position:  -70px 0px !important; }
+.thing.id-t3_sk7c4 .thumbnail         { background-position: -140px 0px !important; }
+.thing.id-t3_sk7c4 a img              { visibility: hidden; }
+.thing.id-t3_ucqyb .thumbnail         { background-position: -210px 0px !important; }
+.thing.id-t3_ucqyb a img              { visibility: hidden; }
+.flair-jump button                    { padding: 2px 7px; margin: 0px 4px; }
